@@ -1,0 +1,39 @@
+.meuNome , h2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+ }
+ h3 {
+    font-family: 'Dancing Script', cursive;
+ }
+ .descricao {
+     position: relative;
+     top: 15%;
+     left: 2%;
+ }
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+ p , li {
+    font-family: 'Source Code Pro', monospace;
+ }
+
+ #minha-foto {
+     float: left;
+     height: 300px;
+     border-radius: 50%;
+     padding: 10px;
+     background-color: rgb(236,188,241);
+     margin-left: 5%;
+ }
+
+ .image-container {
+     height: 300px;
+     position: relative;
+     
+ }
+ .topicos {
+     margin-left: 5%;
+
+ }
+ 
