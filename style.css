@@ -1,3 +1,4 @@
+* { border: 1px solid red; }
 .meuNome , h2{
     font-family: 'Dancing Script', cursive;
     text-align: center;
@@ -29,6 +30,7 @@ body {
 
  .image-container {
      height: 300px;
+     width: 300px;
      position: relative;
      
  }
@@ -42,12 +44,7 @@ body {
     flex-flow: column;
     padding: 5px;
     max-width: 220px;
-    margin: auto;
-}
-
-img {
-    max-width: 220px;
-    max-height: 150px;
+   
 }
 
 figcaption {
@@ -56,4 +53,7 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+}
+.header-container {
+    display: flex;
 }
